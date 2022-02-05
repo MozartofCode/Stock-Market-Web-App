@@ -73,13 +73,13 @@ def get_data(symbol, start, end):
     # Load the file
     if symbol.upper() == "AMZN":
         data_frame = pd.read_csv(
-            r"C:\Users/berta/Desktop/Personal Projects/Stock Market Web Application/stock_data/AMZN.csv")
+            r"C:\Users/berta/Desktop/Personal Projects/Stock Market Web Application/AMZN.csv")
     elif symbol.upper() == "TSLA":
         data_frame = pd.read_csv(
-            r"C:\Users/berta/Desktop/Personal Projects/Stock Market Web Application/stock_data/TSLA.csv")
+            r"C:\Users/berta/Desktop/Personal Projects/Stock Market Web Application/TSLA.csv")
     elif symbol.upper() == "GOOG":
         data_frame = pd.read_csv(
-            r"C:\Users/berta/Desktop/Personal Projects/Stock Market Web Application/stock_data/GOOG.csv")
+            r"C:\Users/berta/Desktop/Personal Projects/Stock Market Web Application/GOOG.csv")
     else:
         data_frame = pd.DataFrame(
             columns=["Data", "Close", "Open", "Volume", "Adj Close", "High", "Low"])
