@@ -10,7 +10,7 @@ Firstly, I created a sample program that is similar to the one in the youtube vi
 but then I wanted to scale the program and wanted it to be able to get info about all the stocks so I decided to use an API and
 improved the sample program and came up with my own version of the stock Web App.
 
-I have created the stock Market Web Application using:
+I have created the Stock Market Web Application using:
 
 - pandas API (specifically the data_reader subpackage)
 - streamlit library for building it as a  web app
